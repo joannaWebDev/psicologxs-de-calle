@@ -6,6 +6,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --logo: #0A2140;
+  --section-que-hacemos-bg-color:#C2E5F2;
+  --section-solucion-bg-color:#7EC8D9;
+  --section-metodologia-bg-color:#1D72A7;
+  --section-contactanos-bg-color:#C2E5F2;
+  --footer-bg-color:#037691;
+  --acceder-btn-bg-color:#2C7373;
+  --intranet-bg-color:#95BBCE;
+  --text-color:#38A0C7;
+}
+
+
 a, a:hover {
   color: inherit;
   text-decoration: inherit;
@@ -19,7 +32,6 @@ body {
   color: #000;
   line-height: 1;
   font-weight: 400;
-  /* max-width: 1080px; */
   margin: 0 auto;
   overflow-x: hidden;
 }

@@ -1,6 +1,6 @@
 .logo{
   font-weight: 700;
-  color: #0A2140;
+  color:var(--logo);
 }
 @media (max-width: 576px) { 
   .logo {
