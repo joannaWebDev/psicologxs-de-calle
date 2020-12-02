@@ -19,7 +19,7 @@ body {
   color: #000;
   line-height: 1;
   font-weight: 400;
-  max-width: 1080px;
+  /* max-width: 1080px; */
   margin: 0 auto;
   overflow-x: hidden;
 }

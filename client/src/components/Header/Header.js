@@ -7,7 +7,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <div className="container my-4">
+    <div className="container-fluid my-4">
       <div className="row justify-content-center">
         <div className="col">
           <Logo/>
