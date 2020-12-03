@@ -17,15 +17,16 @@
   --intranet-bg-color:#95BBCE;
   --text-color:#38A0C7;
 }
-
+img {
+  max-width: 100%;
+  display: block;
+}
 
 a, a:hover {
   color: inherit;
   text-decoration: inherit;
 }
-html {
-  font-size: 16px;
-}
+
 /*main styles*/
 body {
   font-family: 'Poppins', sans-serif;
@@ -34,17 +35,15 @@ body {
   font-weight: 400;
   margin: 0 auto;
   overflow-x: hidden;
+  font-size:15px;
+  line-height:1.6;
 }
-/* .App {
-  text-align: center;
-} */
-
 /*sizes*/
-h1 { font-size: 1.5rem; }
-h2 { font-size: 1.2rem;}
-h3 { font-size: 0.8rem; }
-h4 { font-size: 0.6rem; }
-h5 { font-size: 0.5rem; }
+h1 { font-size: 2.2rem;}
+h2 { font-size: 2rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.2rem; }
+h5 { font-size: 1rem; }
 
 p {
 font-size: 1em;
@@ -52,14 +51,24 @@ font-size: 1em;
 
 
 @media screen and (min-width:600px){
-  html {font-size:16px;}
-  }
-  
-  @media screen and (min-width:768px){
-  html{font-size:18px;}
-  }
-  
-  @media screen and (min-width:992px){
-  html{font-size:20px;}
-  }
-  
+  body {font-size:16px;}
+  h1 { font-size: 2.4rem;}
+  h2 { font-size: 2.1rem; }
+  h3 { font-size: 1.9rem; }
+  h4 { font-size: 1.7rem; }
+  h5 { font-size: 1rem; }
+}
+
+@media screen and (min-width:768px){
+  body{font-size:18px;}
+  h1 { font-size: 2.6rem;}
+  h2 { font-size: 2.5rem; }
+  h3 { font-size: 2rem; }
+  h4 { font-size: 1.5rem; }
+  h5 { font-size: 1rem; }
+}
+
+@media screen and (min-width:992px){
+  body{font-size:20px;}
+}
+

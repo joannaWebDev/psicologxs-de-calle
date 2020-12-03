@@ -1,0 +1,20 @@
+.sectionChart {
+  margin:10% auto;
+  justify-content: center;
+}
+.sectionChart h3 {
+  color:var(--logo);
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+.sectionChartText {
+  align-self: center;
+  margin-bottom: 15%;
+}
+
+@media screen and (min-width:992px){
+  .sectionChartText {
+    max-width: 40%;
+    margin-right: 5%;
+  }
+}

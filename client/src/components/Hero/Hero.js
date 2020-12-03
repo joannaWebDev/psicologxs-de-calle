@@ -1,8 +1,7 @@
 import React from 'react';
-import './hero.css'
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Container from 'react-bootstrap/Container'
-
+import './hero.css';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
 
 const Hero = () => {
     return (
@@ -10,8 +9,14 @@ const Hero = () => {
             <Container>
             <h1>Psicología de calle<br/> para personas sin hogar, por fin.</h1>
             </Container>
-        </Jumbotron>
+        </Jumbotron>       
     )
-  }
-  
-  export default Hero;
+}
+
+export default Hero;
+
+/*el br no se puede usar . no es nada responsive. si se quieren 2 lineas, se puede dar al div que contiene el h1 un max-width
+
+the image is not properly displayed. it gets cut a lot
+
+*/

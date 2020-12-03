@@ -7,8 +7,8 @@ const Footer = ()=>{
 
 return (    
         <div className="container-fluid my-4">
-          <div className="footer row justify-content-center">
-            <div className="firstItem col-lg-4 col-sm-12 col-md-6">
+                <div className="footer row justify-content-center">
+                <div className="firstItem col-lg-4 col-sm-12 col-md-6">
                 <h2>Psicólogxs de calle</h2>
                 <h4>Carrer de la Rieretra, 24, 08001, Barcelona</h4>
                 <h4>conatacto@psicologxsdecalle.com</h4>
