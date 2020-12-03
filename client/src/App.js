@@ -7,9 +7,12 @@ import HamburguerMenuPage from './components/HamburguerMenuPage/HamburguerMenuPa
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home';
 import Footer from './components/Footer/Footer';
-import ScrollTopArrow from './components/ScrollTopArrow/ScrollTopArrow'
+import ScrollTopArrow from './components/ScrollTopArrow/ScrollTopArrow';
+
+
 
 import './App.css';
+import Hero from './components/Hero';
 
 const App = () => {
   return (
@@ -27,7 +30,7 @@ const App = () => {
         <Route path="/" exact component={Home} />
         <Footer/>
       </div>
-      
+      <Hero/>
       <ScrollTopArrow/>
     </Router>
   )
