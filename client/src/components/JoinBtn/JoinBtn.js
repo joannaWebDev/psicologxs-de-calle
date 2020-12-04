@@ -2,10 +2,11 @@ import React from 'react';
 import './joinBtn.css'
 
 const JoinBtn = () => {
+    function sayHello() {
+        alert('You clicked me!');
+      }
     return (
-        <div className="join-us-btn text-uppercase text-center">
-            <a href="">¡Únete!</a>
-        </div>        
+          <button className="join-us-btn" onClick={sayHello}>¡Únete!</button>  
     )
 }
 
