@@ -1,14 +1,15 @@
 import React from 'react';
-import './hero.css';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 
+import './hero.css';
+
 const Hero = () => {
     return (
-        <Jumbotron fluid>
+        <Jumbotron fluid className="heroJumbotron">
             <Container>
                 <div className="hero-title">
-                    <h1>Psicología de calle para personas sin hogar, por fin.</h1>
+                    <h1 className="fredokaStyle">Psicología de calle para personas sin hogar, por fin.</h1>
                 </div>
             </Container>
         </Jumbotron>       
