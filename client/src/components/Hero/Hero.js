@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <Jumbotron fluid>
             <Container>
-            <h1>Psicología de calle<br/> para personas sin hogar, por fin.</h1>
+            <h1 className="fredokaStyle">Psicología de calle<br/> para personas sin hogar, por fin.</h1>
             </Container>
         </Jumbotron>       
     )

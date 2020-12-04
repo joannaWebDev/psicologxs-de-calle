@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 /*reseting the styles*/
 
 * {
@@ -38,9 +39,12 @@ body {
   font-size:15px;
   line-height:1.6;
 }
+.fredokaStyle,h1,h2 {
+  font-family: 'Fredoka One', cursive;
+}
 /*sizes*/
 h1 { font-size: 2.2rem;}
-h2 { font-size: 2rem; }
+h2 { font-size: 2rem;}
 h3 { font-size: 1.6rem; }
 h4 { font-size: 1.2rem; }
 h5 { font-size: 1rem; }
