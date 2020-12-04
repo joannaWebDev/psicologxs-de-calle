@@ -7,8 +7,8 @@ import './hero.css';
 const Hero = () => {
     return (
         <Jumbotron fluid className="heroJumbotron">
-            <Container>
-            <h1 className="fredokaStyle">Psicología de calle<br/> para personas sin hogar, por fin.</h1>
+                <Container>
+                <h1 className="fredokaStyle">Psicología de calle<br/> para personas sin hogar, por fin.</h1>
             </Container>
         </Jumbotron>       
     )

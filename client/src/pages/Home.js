@@ -11,7 +11,7 @@ import './Home.css';
 
 const Home = () => {
   return(
-    <>
+    <div className="hero">
       <Hero />  
 
       <section className="container sectionChart">
@@ -40,7 +40,7 @@ const Home = () => {
       </div>
 
       <Form/>
-    </>
+    </div>
   )
 }
 

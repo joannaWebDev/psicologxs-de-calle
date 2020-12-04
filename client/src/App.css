@@ -6,6 +6,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+
 }
 :root {
   --logo: #0A2140;
@@ -35,7 +37,6 @@ body {
   line-height: 1;
   font-weight: 400;
   margin: 0 auto;
-  overflow-x: hidden;
   font-size:15px;
   line-height:1.6;
 }
