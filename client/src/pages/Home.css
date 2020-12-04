@@ -1,5 +1,5 @@
 .sectionChart {
-  margin:10% auto;
+  margin:15% auto;
   justify-content: center;
 }
 .sectionChart h3 {
@@ -11,10 +11,24 @@
   align-self: center;
   margin-bottom: 15%;
 }
-
+.porQueJumbotron {
+  background-color: var(--section-metodologia-bg-color);
+  padding: 2% 0 10% 0;
+  margin:15% auto;
+  color: #fff;
+  align-items: center;
+}
+.porQueJumbotronP{
+  max-width: 100%;
+}
 @media screen and (min-width:992px){
   .sectionChartText {
     max-width: 40%;
     margin-right: 5%;
+  }
+}
+@media screen and (min-width:768px) {
+  .porQueJumbotronP {
+    max-width: 70%;
   }
 }
