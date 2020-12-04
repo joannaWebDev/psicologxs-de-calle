@@ -19,8 +19,16 @@ const Home = () => {
                     <h1 className="fredokaStyle">Psicología de calle para personas sin hogar, por fin.</h1>
                 </div>
             </Container>
-            <JoinBtn />
         </section>    
+
+        <section className="join-us">
+          <div className="row justify-content-center">
+            <div className="col-md-6 col-sm-12">
+              <p>Haz tus práctica de Psicología con <strong>Psicólogos de Calle.</strong></p>
+            </div>
+            <div className="col-md-6 col-sm-12"><JoinBtn /></div>
+          </div>
+        </section>
 
       {<section className="container sectionChart">
         <div className="row">
