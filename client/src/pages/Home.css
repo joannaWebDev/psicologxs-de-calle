@@ -1,27 +1,21 @@
 .hero {
-<<<<<<< HEAD
-  
-}
-=======
-  height: 60vh;
-  background-image: url('../assets/images/hero.jpeg');
+  background-image:url('../assets/images/hero.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 2%;
+  margin: 10% 0;
+ padding: 15% 0;
 }
 
-.hero-title > h1  {
-  color: white;
-  font-size: 2.5rem;
+.hero-title>h1  {
+  color: #fff;
   font-weight: 700;
-  padding-top: 25%;
+  padding-top: 20%;
 }
 
 .hero-title {
   max-width: 65%;
 }
 
->>>>>>> 99a85b60a19f107f278ba28eea89cf5355d102ff
 .sectionChart {
   margin:15% auto;
   justify-content: center;
@@ -30,26 +24,37 @@
   color:var(--logo);
   font-weight: 700;
   margin-bottom: 5%;
+  overflow: hidden;
 }
 .sectionChartText {
   align-self: center;
   margin-bottom: 15%;
 }
+
 .porQueJumbotron {
   background-color: var(--section-metodologia-bg-color);
-  padding: 2% 0 10% 0;
+  padding: 3% 1% 12% 1%;
   margin:15% auto;
   color: #fff;
   align-items: center;
 }
 .porQueJumbotronP{
-  max-width: 100%;
+  max-width: 90%;
 }
 
 @media screen and (max-width:600px){
   .hero h1 {
       font-size: 1rem;
       margin-top: 5%;
+  }
+  .porQueJumbotronP{
+    text-align: left;
+    padding-left: 2%;
+  }
+}
+@media screen and (min-width:768px) {
+  .porQueJumbotronP {
+    max-width: 70%;
   }
 }
 @media screen and (min-width:992px){
@@ -58,8 +63,7 @@
     margin-right: 5%;
   }
 }
-@media screen and (min-width:768px) {
-  .porQueJumbotronP {
-    max-width: 70%;
-  }
+
+.imageAlone {
+  margin: 15% auto;
 }

@@ -6,8 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
-
 }
 :root {
   --logo: #0A2140;
@@ -23,8 +21,9 @@
   --join-us-btn: #0A2140;
 }
 img {
-  max-width: 100%;
+  width: 100%;
   display: block;
+  height: auto;
 }
 
 a, a:hover {
@@ -41,6 +40,7 @@ body {
   margin: 0 auto;
   font-size:15px;
   line-height:1.6;
+  overflow-x: hidden;
 }
 .fredokaStyle,h1,h2 {
   font-family: 'Fredoka One', cursive;
