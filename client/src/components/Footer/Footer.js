@@ -1,51 +1,50 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import SocialMedia from '../SocialMedia/SocialMedia';
+import Logo from './../Logo/Logo';
+
+import logoArrels from './../../assets/images/logo-arrels.png';
+import logoLearning from './../../assets/images/logo-learning.png';
 
 import './Footer.css';
 
 const Footer = ()=>{
 
-return (    
-        <div className="container-fluid my-4">
-                <div className="footer row justify-content-center">
-                <div className="firstItem col-lg-4 col-sm-12 col-md-6">
-                <h2>Psicólogxs de calle</h2>
-                <h4>Carrer de la Rieretra, 24, 08001, Barcelona</h4>
-                <h4>conatacto@psicologxsdecalle.com</h4>
-                <h4>+34 000 00 00 00</h4>
-          </div>
-
-          <div className="firstItem col-lg-4 col-sm-12 col-md-6">
-                  <h4>Colaboradores</h4>
-                  <img className="footerImg" src="https://static1.squarespace.com/static/54c15c2ae4b0bad93722c9cb/t/56df438cb654f95102099987/1552503652342/?format=750w" width="60" />
-                  <img className="footerImg" src="https://www.clipartmax.com/png/middle/279-2798685_png-logo-maker-online-real-clipart-and-vector-graphics-camera-logo-design.png" width="60"/>
-          </div>
-
-          <div className="firstItem col-lg-4 col-sm-12 col-md-12">
-                <SocialMedia/>
-          </div>
-
-          </div> 
-        </div>    
+  return (    
+    <Container fluid className="footer ">
+            <Row className="justify-content-center footerRow">
+              <Col className="adressFooter" xs={{ size: 12, order: 3, span: 12 }}
+                      sm={{ size: 12, order: 3,span: 3}} 
+                      md={{ size: 4, order: 1, offset: 1 }}                
+                      lg={{ size: 4, order: 1, offset: 1 }}
+                      xl={{ size: 4, order: 1, offset: 1 }}>
+                      <div className="footerLogoDisplay"><Logo/></div>
+                      <address>Carrer de la Rieretra, 24, 08001, Barcelona
+                      contacto@psicologxsdecalle.com
+                      +34 000 00 00 00</address>
+              </Col>
+              <Col xs={{ size: 12, order: 2, span: 12}}
+                      sm={{ size: 12, order: 2, span: 3}} 
+                      md={{ size: 4, order: 2, offset: 1 }}                
+                      lg={{ size: 4, order: 2, offset: 1 }}
+                      xl={{ size: 4, order: 2, offset: 1 }}>
+                      <p><b>Colaboradores</b></p>
+                      <div className="footerImg">
+                        <img src={logoArrels} alt="logoArrels"/>
+                        <img src={logoLearning} alt="logoLearning" />
+                      </div>
+              </Col>
+              <Col xs={{ size: 12, order: 1, span: 12}}
+                      sm={{ size: 12, order: 1, span: 3 }} 
+                      md={{ size: 4, order: 3, offset: 1 }}                
+                      lg={{ size: 4, order: 3, offset: 1 }}
+                      xl={{ size: 4, order: 3, offset: 1 }}><SocialMedia/>
+              </Col>
+            </Row>
+    </Container>
 )
-
 };
 
 export default Footer; 
-
-/** --change container to container-fluid so it will occupy the entire viewport
- *the mobile design needs pullishing
-  for the order you can check this documentation https://react-bootstrap.github.io/layout/grid/
- * 
-
---we only have h4 for -Psicólogxs de calle- and -Colaboradores-, everything else is p or even better: remember that html has a tag called adress that would maybe work better for the address  :-)
-https://www.w3schools.com/tags/tag_address.asp
-
---also check for tipos
- * 
- * --change className .firstItem to something that is more explicit of the use of that html element
- * 
- * 
- * --line 9, the my-4 means that you are adding a margin both top and bottom to the footer. But the footer shouldn't have a margin bottom, right? We should only use mt-4.
- * https://getbootstrap.com/docs/4.0/utilities/spacing/
- */

@@ -2,20 +2,31 @@
     background-color: #037691;
     padding:5% 6%;
     color:white;
+    font-size: 0.7em;
+    margin-top: 15%;
+    text-align: center;
 }
-
-.firstItem{
-    padding-left:4%;
-    padding-right: 4%;
+.footerLogoDisplay {
+    font-size: 100em;
 }
-
-.firstItem h2{
-    font-weight:800;
-    
+.adressFooter {
+    text-align: left;
 }
-
 .footerImg{
-padding:3%;
-
+    display: flex;
+    justify-content: space-around;
 }
-
+.footerImg img {
+    width: 40px;
+}
+@media screen and (max-width:600px) {
+    footer {
+        width: 100%;
+    }
+    .footerRow * {
+        margin-bottom: 5%;
+    }
+    .footerLogoDisplay {
+        display: none;
+    }
+}

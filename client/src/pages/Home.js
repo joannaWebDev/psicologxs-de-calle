@@ -3,7 +3,6 @@ import React from 'react';
 import Form from './../components/Form/Form';
 import JoinBtn from './../components/JoinBtn/JoinBtn';
 
-
 import chart from './../assets/images/chart.png';
 import volunteerBackpack from './../assets/images/volunteer-backpack.png';
 import Container from 'react-bootstrap/Container';
