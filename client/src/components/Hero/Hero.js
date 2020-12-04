@@ -7,7 +7,9 @@ const Hero = () => {
     return (
         <Jumbotron fluid>
             <Container>
-            <h1>Psicología de calle<br/> para personas sin hogar, por fin.</h1>
+                <div className="hero-title">
+                    <h1>Psicología de calle para personas sin hogar, por fin.</h1>
+                </div>
             </Container>
         </Jumbotron>       
     )
@@ -15,7 +17,7 @@ const Hero = () => {
 
 export default Hero;
 
-/*el br no se puede usar . no es nada responsive. si se quieren 2 lineas, se puede dar al div que contiene el h1 un max-width
+/*
 
 the image is not properly displayed. it gets cut a lot
 
