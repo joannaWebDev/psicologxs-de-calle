@@ -2,7 +2,7 @@
     background-color: #037691;
     padding:5% 6%;
     color:white;
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin-top: 15%;
     text-align: center;
 }
@@ -29,4 +29,9 @@
     .footerLogoDisplay {
         display: none;
     }
+}
+@media screen and (max-width: 900px) { 
+    .footerLogoDisplay>.logo {
+        font-size: 1.5rem;
+    } 
 }
