@@ -1,13 +1,10 @@
 .footer{
     background-color: #037691;
-    padding:5% 6%;
+    padding:6%;
     color:white;
     font-size: 0.8em;
-    margin-top: 15%;
+    margin-top: 35%;
     text-align: center;
-}
-.footerLogoDisplay {
-    font-size: 100em;
 }
 .adressFooter {
     text-align: left;
@@ -26,12 +23,13 @@
     .footerRow * {
         margin-bottom: 5%;
     }
+   
+    .adressFooter {
+        text-align: center;
+    }
+}
+@media screen and (max-width:768px){
     .footerLogoDisplay {
         display: none;
     }
-}
-@media screen and (max-width: 900px) { 
-    .footerLogoDisplay>.logo {
-        font-size: 1.5rem;
-    } 
 }

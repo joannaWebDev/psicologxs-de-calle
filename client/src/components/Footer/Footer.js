@@ -17,12 +17,12 @@
             <Row className="justify-content-center footerRow">
               <Col className="adressFooter" xs={{ size: 12, order: 3, span: 12 }}
                       sm={{ size: 12, order: 3,span: 12}} 
-                      md={{ size: 4, order: 1}}                
-                      lg={{ size: 4, order: 1}}
-                      xl={{ size: 4, order: 1}}>
+                      md={{ size: 4, order: 1, span:4}}                
+                      lg={{ size: 4, order: 1,span:4}}
+                      xl={{ size: 4, order: 1,span:4}}>
                       <div className="footerLogoDisplay"><Logo/></div>
                       <address>Carrer de la Rieretra, 24 - 08001, Barcelona
-                      contacto@psicologxsdecalle.com &nbsp;
+                      contacto@psicologxsdecalle.com <br/>
                       +34 000 00 00 00</address>
               </Col>
               <Col xs={{ size: 12, order: 2, span: 12}}
