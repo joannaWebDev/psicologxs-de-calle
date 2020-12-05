@@ -5,13 +5,14 @@ import JoinBtn from './../components/JoinBtn/JoinBtn';
 
 import chart from './../assets/images/chart.png';
 import volunteerBackpack from './../assets/images/volunteer-backpack.png';
+
 import Container from 'react-bootstrap/Container';
 
 import './Home.css';
 
 const Home = () => {
   return(
-    <>
+    <div className="container-fluid">
       <section fluid className="hero">
             <Container>
                 <div className="hero-title">
@@ -55,10 +56,8 @@ const Home = () => {
           </div>        
         </div>
       </section>
-
-
           <Form/>
-    </>
+    </div>
   )
 }
 
