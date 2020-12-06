@@ -1,0 +1,9 @@
+.centerForm{
+    display: flex;   
+    justify-content: center;
+}
+.formInput{
+    display: flex;  
+    width: 50px;
+    align-self: center;
+}
