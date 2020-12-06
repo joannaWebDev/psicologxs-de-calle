@@ -2,7 +2,7 @@
   background-image:url('../assets/images/hero.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 25% 0;
+  margin: 5% 0 15% 0;
   padding: 15% 0;
 }
 
@@ -35,7 +35,7 @@
 .porQueJumbotron {
   background-color: var(--section-metodologia-bg-color);
   padding: 3% 1% 12% 1%;
-  margin:25% auto;
+  margin:15% auto;
   color: #fff;
   align-items: center;
 }
