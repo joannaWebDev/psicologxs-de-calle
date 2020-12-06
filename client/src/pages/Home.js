@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Form from './../components/Form/Form';
+import MainForm from '../components/Form/MainForm';
 import JoinBtn from './../components/JoinBtn/JoinBtn';
 
 import chart from './../assets/images/chart.png';
@@ -56,7 +56,7 @@ const Home = () => {
           </div>        
         </div>
       </section>
-          <Form/>
+          <MainForm/>
     </div>
   )
 }
