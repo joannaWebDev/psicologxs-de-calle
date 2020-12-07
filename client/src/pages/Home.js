@@ -22,12 +22,12 @@ const Home = () => {
         </section>    
 
         <section className="join-us">
-          <div className="row justify-content-center">
-            <div className="col-md-6 col-sm-12">
+            <div>
               <p>Haz tus práctica de Psicología con <strong>Psicólogos de Calle.</strong></p>
             </div>
-            <div className="col-md-6 col-sm-12"><JoinBtn /></div>
-          </div>
+            <div>
+              <JoinBtn />
+            </div>
         </section>
 
         <section className="container-fluid porQueJumbotron">
