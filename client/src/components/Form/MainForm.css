@@ -2,7 +2,28 @@
     display: flex;   
     flex-direction: column;
     align-items: center;
+    background-color: #C2E5F2;
+    padding-bottom: 5%;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px  rgba(171, 180, 192, 0.8), -6px 0 6px -2px rgba(171, 180, 192, 0.8);
+    
 }
 .formInput{
     width: 50%;
 }
+
+.formHeader{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    
+}
+.marginTitle{
+    margin-bottom: 10%;
+}
+
+.marginInput{
+    margin-bottom: 5%;
+}
+
