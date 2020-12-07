@@ -2,7 +2,9 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
+
 import './MainForm.css';
+
 
 const MainForm = () => {
     return (
@@ -23,9 +25,9 @@ const MainForm = () => {
                 <Form.Label> ¿En qué podemos ayudarte?</Form.Label>
                     <Form.Control as="textarea" rows="4" placeholder="Escribe tu mensaje aquí" />
             </Form.Group>
-            <Button variant="primary" type="submit" >
+            <Button className="join-us-btn" variant="primary" type="submit" >
             Envía
-            </Button>            
+            </Button>          
         </Form>
 
     )
