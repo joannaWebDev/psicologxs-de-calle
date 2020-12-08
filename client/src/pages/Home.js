@@ -3,6 +3,7 @@ import React from 'react';
 import Methodology from '../components/Methodology/Methodology';
 import MainForm from '../components/Form/MainForm';
 import JoinBtn from './../components/JoinBtn/JoinBtn';
+import Team from './../components/Team/Team';
 
 import chart from './../assets/images/chart.png';
 import volunteerBackpack from './../assets/images/volunteer-backpack.png';
@@ -89,6 +90,8 @@ const Home = () => {
       
       <Methodology/> 
       <MainForm/>
+      <Team />
+
     </div>
   )
 }
