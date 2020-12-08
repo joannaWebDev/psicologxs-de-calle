@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Methodology from '../components/Methodology/Methodology';
 import MainForm from '../components/Form/MainForm';
 import JoinBtn from './../components/JoinBtn/JoinBtn';
 
@@ -83,8 +84,9 @@ const Home = () => {
           </div> 
         </div>
       </section> 
-
-          <MainForm/>
+      
+      <Methodology/> 
+      <MainForm/>
     </div>
   )
 }
