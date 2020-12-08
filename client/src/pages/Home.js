@@ -56,6 +56,34 @@ const Home = () => {
           </div>        
         </div>
       </section>
+
+      <section className="container-fluid solution">
+        <div className="row justify-content-center">
+          <div className="col-lg-4 col-md-6 col-sm-6">
+            <h3>Forma parte de la solución</h3>
+          </div> 
+          <div className="row justify-content-center mt-2">   
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <p className="solution-text"> Tú, <strong>estudiante de máster de Psicología</strong> que buscas prácticas, realizarás las sesiones de acompañamiento a personas sin hogar.</p>
+            </div>              
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <p className="solution-text"> Tú, <strong>asistente social</strong>, identificarás a los usuarios sin hogar y les ofrecerás participar en las sesiones de acompañamiento.</p>
+            </div>              
+          </div>    
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <p className="solution-text">  Tú, <strong>psicologx con experiencia</strong>, serás el mentor/a de lxs estudiantes y realizarás el seguimiento de estos y de las sesiones.</p>
+            </div>              
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <p className="solution-text"> Tú, <strong>Universidad</strong>, podrás ofrecer en tu bolsa de prácticas el programa de <strong>Psicologxs de la calle</strong> a tus estudiantes.</p>
+            </div>              
+          </div>
+          <div className="mt-4">
+            <JoinBtn />
+          </div> 
+        </div>
+      </section> 
+
           <MainForm/>
     </div>
   )

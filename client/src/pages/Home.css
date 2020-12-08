@@ -45,6 +45,16 @@
   margin-bottom: 15%;
 }
 
+.solution {
+  padding: 5%;
+  align-items: center;
+  background-color: var(--section-solucion-bg-color)
+}
+
+.solution-text {
+  max-width: 92%;
+}
+
 .porQueJumbotron {
   background-color: var(--section-metodologia-bg-color);
   padding: 3% 1% 12% 1%;
