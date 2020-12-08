@@ -11,11 +11,13 @@
     justify-content: space-around;
     margin-bottom: 3%;
 }
+.methodology article {
+    background-color: var(--section-metodologia-bg-color);
+}
 .upSchema article{
     width: 40%;
     padding: 3%;
-    border-radius: 12px;
-    background-color: var(--section-metodologia-bg-color);
+    border-radius: 12px; 
 }
 
 .downSchema{
@@ -29,7 +31,6 @@
     width: 40%;
     padding: 3%;
     border-radius: 12px;
-    background-color: var(--section-metodologia-bg-color);
 }
 
 

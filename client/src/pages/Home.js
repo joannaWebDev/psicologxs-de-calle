@@ -3,7 +3,11 @@ import React from 'react';
 import Methodology from '../components/Methodology/Methodology';
 import MainForm from '../components/Form/MainForm';
 import JoinBtn from './../components/JoinBtn/JoinBtn';
+<<<<<<< HEAD
 import CardBody from './../components/CardBody/CardBody'
+=======
+import Team from './../components/Team/Team';
+>>>>>>> dac9d1db7d5928fe6075ce654496df4bc9ae1cab
 
 import chart from './../assets/images/chart.png';
 import volunteerBackpack from './../assets/images/volunteer-backpack.png';
@@ -24,11 +28,11 @@ const Home = () => {
         </section>    
 
         <section className="container-fluid join-us">
-            <div className="row justify-content-around text-center">
-              <div className="col-lg-6 col-md-12 col-sm-12">
+            <div className="row text-center">
+              <div className="col-lg-9 col-md-9 col-sm-12 py-4">
                 <p>Haz tus práctica de Psicología con <strong>Psicólogos de Calle.</strong></p>
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12">
+              <div className="col-lg-3 col-md-3 col-sm-12 py-4">
                 <JoinBtn />
               </div>
             </div>
@@ -93,6 +97,8 @@ const Home = () => {
       
       <Methodology/> 
       <MainForm/>
+      <Team />
+
     </div>
   )
 }
