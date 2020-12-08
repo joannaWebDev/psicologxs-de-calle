@@ -79,7 +79,7 @@ const Home = () => {
               <p className="solution-text"> Tú, <strong>Universidad</strong>, podrás ofrecer en tu bolsa de prácticas el programa de <strong>Psicologxs de la calle</strong> a tus estudiantes.</p>
             </div>              
           </div>
-          <div className="mt-4">
+          <div className="mt-5">
             <JoinBtn />
           </div> 
         </div>
