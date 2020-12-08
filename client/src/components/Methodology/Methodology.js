@@ -4,11 +4,11 @@ import Container from 'react-bootstrap/esm/Container';
 import './Methodology.css'
 
 
-
 const Methodology = () => {
     return (
         <Container className="my-5">
             <h3 className="methodHeader text-center">La metodología de Psicólogxs en la Calle</h3>
+            
             <div className="methodology">
                 <section className="upSchema">
                     <article>El asistente social vinculado al programa identifica a las personas sin hogar y les ofrece participar en las sesiones de acompañamiento emocional. Al aceptar, Psicologxs de Calle los  incluye en su base de datos y crea su expediente.</article>
