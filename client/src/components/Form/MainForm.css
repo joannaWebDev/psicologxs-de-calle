@@ -1,44 +1,59 @@
 .centerForm{
+  max-width: 60%;
   display: flex;   
   flex-direction: column;
   align-items: center;
-  background-color: #C2E5F2;
+  background-color:var( --section-contactanos-bg-color);
   padding-bottom: 5%;
   border-radius: 25px;
   box-shadow: 3px 3px 3px  rgba(171, 180, 192, 0.8), -6px 0 6px -2px rgba(171, 180, 192, 0.8);
-  
+  margin:15% auto;  
 }
 .formInput{
-  width: 50%;
+    width: 50%;
 }
 
 .formHeader{
-  display: flex;  
-  flex-direction: column;
-  align-items: center;
-  margin: 5%;
-  
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    
 }
 .marginTitle{
-  margin-bottom: 10%;
+    margin-bottom: 10%;
 }
 
 .marginInput{
-  margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .join-us-btn {
-  width: 150px;
-  height: 50px;
-  line-height: 50px;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  color: var(--white);
-  background-color: var(--join-us-btn);
-  padding-top: 0;
+    line-height: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--white);
+    background-color: var(--join-us-btn);
+    padding-top: 0;
 }
 
 .join-us-btn:hover {
-  border: none;
+    border: none;
+}
+@media only screen and (max-width: 600px) {
+  .centerForm{
+    max-width: 100%;
+  }
+  .formInput{
+    width: 100%;
+}
+}
+@media only screen and (max-width: 768px) {
+  .centerForm{
+    max-width: 80%;
+  }
+  .formInput{
+    width: 100%;
+  }
 }

@@ -8,7 +8,6 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home';
 import Footer from './components/Footer/Footer';
 import ScrollTopArrow from './components/ScrollTopArrow/ScrollTopArrow';
-
 import './App.css';
 
 const App = () => {

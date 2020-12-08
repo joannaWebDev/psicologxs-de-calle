@@ -10,8 +10,8 @@ const MainForm = () => {
     return (
         <Form className = "container centerForm">
             <div className ="formHeader">
-                <h1 className="marginTitle">Contáctanos</h1>
-                <h4 className="marginTitle">Y forma parte de la solución</h4>
+                <h2 className="marginTitle">Contáctanos</h2>
+                <p className="marginTitle">Y forma parte de la solución</p>
             </div>
             <Form.Group controlId="formName" className="formInput marginInput" >
                 <Form.Label > ¿Cómo te llamas? </Form.Label>

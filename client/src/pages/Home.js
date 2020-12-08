@@ -1,8 +1,8 @@
 import React from 'react';
 
+import Methodology from '../components/Methodology/Methodology';
 import MainForm from '../components/Form/MainForm';
 import JoinBtn from './../components/JoinBtn/JoinBtn';
-import Methodology from '../components/Methodology/Methodology';
 
 import chart from './../assets/images/chart.png';
 import volunteerBackpack from './../assets/images/volunteer-backpack.png';
@@ -57,8 +57,9 @@ const Home = () => {
           </div>        
         </div>
       </section>
+      
       <Methodology/> 
-          <MainForm/>
+      <MainForm/>
     </div>
   )
 }
