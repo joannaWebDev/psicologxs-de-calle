@@ -22,12 +22,14 @@ const Home = () => {
             </Container>
         </section>    
 
-        <section className="join-us">
-            <div>
-              <p>Haz tus práctica de Psicología con <strong>Psicólogos de Calle.</strong></p>
-            </div>
-            <div>
-              <JoinBtn />
+        <section className="container-fluid join-us">
+            <div className="row justify-content-around text-center">
+              <div className="col-lg-6 col-md-12 col-sm-12">
+                <p>Haz tus práctica de Psicología con <strong>Psicólogos de Calle.</strong></p>
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12">
+                <JoinBtn />
+              </div>
             </div>
         </section>
 
