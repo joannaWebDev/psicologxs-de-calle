@@ -28,7 +28,7 @@
 }
 
 .sectionChart {
-  margin:25% auto;
+  margin:15% auto;
   justify-content: center;
 }
 
@@ -46,7 +46,8 @@
 .solution {
   padding: 5%;
   align-items: center;
-  background-color: var(--section-solucion-bg-color)
+  background-color: var(--section-solucion-bg-color);
+  margin-bottom: 15%;
 }
 
 .solution-text {
