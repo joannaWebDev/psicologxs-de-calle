@@ -56,7 +56,7 @@ const Home = () => {
 
       <section className="container sectionChart ">
         <div className="row justify-content-center">
-          <div className="col-lg-6 col-md-12 col-sm-12 sectionChartText mr-lg-5 ">
+          <div className="col-lg-6 col-md-12 col-sm-12 sectionChartText ">
             <h3>¿A quién nos dirigimos?</h3> 
             <p>Nuestras labor responde a necesidades que requieren de intervención por parte de psicólogxs para atender a las personas sin hogar que pueden mostrar síntomas de <b>depresión, disminución de habilidades sociales, tener adicciones, enfermedades crónicas, ser víctimas de agresiones, etc.</b></p>
           </div>
