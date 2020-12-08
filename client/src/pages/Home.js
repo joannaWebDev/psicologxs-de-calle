@@ -3,6 +3,7 @@ import React from 'react';
 import Methodology from '../components/Methodology/Methodology';
 import MainForm from '../components/Form/MainForm';
 import JoinBtn from './../components/JoinBtn/JoinBtn';
+import CardBody from './../components/CardBody/CardBody'
 
 import chart from './../assets/images/chart.png';
 import volunteerBackpack from './../assets/images/volunteer-backpack.png';
@@ -31,6 +32,9 @@ const Home = () => {
                 <JoinBtn />
               </div>
             </div>
+        </section>
+        <section>
+          <CardBody/>
         </section>
 
         <section className="container-fluid porQueJumbotron">

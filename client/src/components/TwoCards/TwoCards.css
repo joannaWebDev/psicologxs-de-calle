@@ -1,0 +1,25 @@
+#cards-heading{
+    color:white;
+    text-align: center;
+}
+
+.cards{
+    padding:5;
+}
+
+.eachcards{
+    padding:2%;
+    width:40%;
+    border-radius:5% ;
+   
+}
+
+.cardsImage{
+    height:70%;
+    object-fit:cover;
+}
+
+@media only screen and (max-width: 1240px) {
+    .eachcards{
+        margin:3em;
+    }}
