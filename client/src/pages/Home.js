@@ -3,11 +3,8 @@ import React from 'react';
 import Methodology from '../components/Methodology/Methodology';
 import MainForm from '../components/Form/MainForm';
 import JoinBtn from './../components/JoinBtn/JoinBtn';
-<<<<<<< HEAD
-import CardBody from './../components/CardBody/CardBody'
-=======
 import Team from './../components/Team/Team';
->>>>>>> dac9d1db7d5928fe6075ce654496df4bc9ae1cab
+import CardBody from './../components/CardBody/CardBody';
 
 import chart from './../assets/images/chart.png';
 import volunteerBackpack from './../assets/images/volunteer-backpack.png';
@@ -15,6 +12,7 @@ import volunteerBackpack from './../assets/images/volunteer-backpack.png';
 import Container from 'react-bootstrap/Container';
 
 import './Home.css';
+
 
 const Home = () => {
   return(
