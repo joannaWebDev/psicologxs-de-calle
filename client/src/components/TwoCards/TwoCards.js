@@ -1,5 +1,5 @@
 import React from 'react';
-import boyVolunteer from './../../assets/images/boy-volunteer.jpg';
+import boyVolunteer from './../../assets/images/girlimageedited.png';
 import girlVolunteer from './../../assets/images/girl-volunteer.jpg';
 import './TwoCards.css';
 
@@ -13,7 +13,7 @@ const TwoCards = () => {
         <div className=" cards row justify-content-around" >
             
             <Card className="eachcards">
-            <Card.Img variant="top" src={boyVolunteer} alt="Logo" className=" cardsImage img-fluid"  />
+            <Card.Img variant="top" src={boyVolunteer} alt="Logo" className=" cardsImage img-fluid" />
                     <Card.Body>
                         
                         <Card.Text>
@@ -25,7 +25,7 @@ const TwoCards = () => {
             </Card>
 
             <Card className="eachcards">
-                <Card.Img variant="top" src={girlVolunteer} alt="Logo" className=" cardsImage img-fluid" />
+                <Card.Img variant="top" src={girlVolunteer} alt="Logo" className=" cardsImage img-fluid"   />
                     <Card.Body >
                         
                         <Card.Text>

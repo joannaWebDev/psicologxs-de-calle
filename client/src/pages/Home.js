@@ -54,7 +54,7 @@ const Home = () => {
           </div>
         </section> 
 
-      <section className="container sectionChart ">
+      <section className="container-fluid sectionChart ">
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-12 col-sm-12 sectionChartText ">
             <h3>¿A quién nos dirigimos?</h3> 

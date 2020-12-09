@@ -1,25 +1,38 @@
-#cards-heading{
-    color:white;
-    text-align: center;
-}
+
 
 .cards{
-    padding:5;
+    padding:5%;
+
 }
 
+.card-text{
+    padding:2% 0;
+}
 .eachcards{
     padding:2%;
     width:40%;
     border-radius:5% ;
+    background-color:white;
    
 }
 
-.cardsImage{
-    height:70%;
+/* .cardsImage{
+    height:12em;
     object-fit:cover;
-}
+    
+} */
 
-@media only screen and (max-width: 1240px) {
+
+@media only screen and (max-width: 600px) {
     .eachcards{
-        margin:3em;
-    }}
+        width:80%;
+}
+    .eachcards:first-of-type{
+        margin-bottom:10%;
+    }
+
+    /* .cardsImage{
+        width:40em;
+        text-align:center;
+    } */
+}
