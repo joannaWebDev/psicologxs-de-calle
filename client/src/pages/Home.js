@@ -16,7 +16,7 @@ import './Home.css';
 
 const Home = () => {
   return(
-    <div className="container-fluid">
+    <div className="container-fluid home">
       <section fluid className="hero">
             <Container>
                 <div className="hero-title">

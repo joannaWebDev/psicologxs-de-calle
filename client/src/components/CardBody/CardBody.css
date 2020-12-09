@@ -1,21 +1,5 @@
-/* 
-
-.clippath{
-    background-color:var(--section-que-hacemos-bg-color);
-    margin:15% auto;
-    padding:5% 0;
-} */
-
-
 .clippath{
     background-image:url("./../../assets/images/cards-background.png");
     background-repeat: no-repeat;
     background-size:cover;
 }
-
-
-@media only screen and (max-width: 600px) {
-    .clippath{
-        background-color:#7EC8D9;
-    }
-  }

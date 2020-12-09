@@ -63,8 +63,37 @@ font-size: 1em;
   h3 { font-size: 1.7rem; }
   h4 { font-size: 1.7rem; }
   h5 { font-size: 1rem; }
+  footer {
+    width: 100%;
+}
+.footerRow * {
+    margin-bottom: 5%;
 }
 
+.adressFooter {
+    text-align: center;
+}
+/*mainform*/
+.centerForm{
+  max-width: 100%;
+}
+.formInput{
+  width: 100%;
+}
+
+}
+@media screen and (max-width:768px){
+  .footerLogoDisplay {
+      display: none;
+  }
+  /*main form*/
+  .centerForm{
+    max-width: 80%;
+  }
+  .formInput{
+    width: 100%;
+  }
+}
 @media screen and (min-width:768px){
   body{font-size:18px;}
   h1 { font-size: 2.6rem;}
