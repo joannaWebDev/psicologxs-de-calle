@@ -1,5 +1,5 @@
 import React from 'react';
-import boyVolunteer from './../../assets/images/girlimageedited.png';
+import boyVolunteer from './../../assets/images/boyimageedited.png';
 import girlVolunteer from './../../assets/images/girl-volunteer.jpg';
 import './TwoCards.css';
 
