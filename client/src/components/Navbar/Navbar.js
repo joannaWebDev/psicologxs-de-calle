@@ -3,21 +3,21 @@ import Nav from 'react-bootstrap/Nav';
 
 import './Navbar.css'
 
-
 const Navbar = () => {
+  
     return(
       <Nav className="justify-content-end navBar" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/home">¿Por qué existe?</Nav.Link>
+          <Nav.Link href="/home" className="navItem">¿Por qué existe?</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/">Forma parte de la solución</Nav.Link>
+          <Nav.Link href="/" className="navItem">Forma parte de la solución</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/">Contáctanos</Nav.Link>
+          <Nav.Link href="/" className="navItem">Contáctanos</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/">Equipo</Nav.Link>
+          <Nav.Link href="/" className="navItem">Equipo</Nav.Link>
         </Nav.Item>
     </Nav>
     )

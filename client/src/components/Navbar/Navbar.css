@@ -1,7 +1,3 @@
-.navBar {
-  font-size: 0.7em;
-}
-
-.navbar {
-  color: green;
+.navItem:hover {
+  text-decoration: underline;
 }

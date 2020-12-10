@@ -1,0 +1,14 @@
+.cards {
+    padding:5%;
+}
+
+.card-text {
+    padding:2% 0;
+}
+
+.eachcards {
+    padding:2%;
+    width:40%;
+    border-radius:5% ;
+    background-color:white;
+}

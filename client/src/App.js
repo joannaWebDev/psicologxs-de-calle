@@ -7,7 +7,7 @@ import HamburguerMenuPage from './components/HamburguerMenuPage/HamburguerMenuPa
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home';
 import Footer from './components/Footer/Footer';
-
+import ScrollTopArrow from './components/ScrollTopArrow/ScrollTopArrow';
 import './App.css';
 
 const App = () => {
@@ -19,6 +19,9 @@ const App = () => {
           <Responsive displayIn={["Laptop"]}>
             <Navbar />
           </Responsive>
+          <Responsive displayIn={["Tablet"]}>
+            <Navbar />
+          </Responsive>
           <Responsive displayIn={["Mobile"]}>
             <HamburguerMenuPage />
           </Responsive>
@@ -26,6 +29,7 @@ const App = () => {
         <Route path="/" exact component={Home} />
         <Footer/>
       </div>
+      <ScrollTopArrow/>
     </Router>
   )
 }

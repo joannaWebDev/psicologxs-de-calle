@@ -1,9 +1,5 @@
-.logo{
+.logo {
   font-weight: 700;
-  color: #0A2140;
-}
-@media (max-width: 576px) { 
-  .logo {
-    text-align: center;
-  } 
+  color:var(--logo);
+  font-size: 1.8rem;
 }
