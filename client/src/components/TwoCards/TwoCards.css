@@ -1,25 +1,14 @@
-.cards{
+.cards {
     padding:5%;
-
 }
 
-.card-text{
+.card-text {
     padding:2% 0;
 }
-.eachcards{
+
+.eachcards {
     padding:2%;
     width:40%;
     border-radius:5% ;
     background-color:white;
-}
-
-
-@media only screen and (max-width: 600px) {
-    .eachcards{
-        width:80%;
-}
-    .eachcards:first-of-type{
-        margin-bottom:10%;
-    }
-
 }

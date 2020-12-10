@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --logo: #0A2140;
   --section-que-hacemos-bg-color:#C2E5F2;
@@ -20,6 +21,7 @@
   --white: #ffffff;
   --join-us-btn: #0A2140;
 }
+
 img {
   width: 100%;
   display: block;
@@ -42,9 +44,11 @@ body {
   line-height:1.6;
   overflow-x: hidden;
 }
+
 .fredokaStyle,h1,h2 {
   font-family: 'Fredoka One', cursive;
 }
+
 /*sizes*/
 h1 { font-size: 2.2rem;}
 h2 { font-size: 2rem;}
@@ -56,6 +60,12 @@ p {
 font-size: 1em;
 }
 
+@media (max-width: 576px) { 
+  .logo {
+    text-align: center;
+  } 
+}
+
 @media screen and (max-width:600px){
   body {font-size:16px;}
   h1 { font-size: 2rem;}
@@ -65,35 +75,72 @@ font-size: 1em;
   h5 { font-size: 1rem; }
   footer {
     width: 100%;
-}
-.footerRow * {
-    margin-bottom: 5%;
-}
-
-.adressFooter {
-    text-align: center;
-}
-/*mainform*/
-.centerForm{
-  max-width: 100%;
-}
-.formInput{
-  width: 100%;
-}
-
-}
-@media screen and (max-width:768px){
-  .footerLogoDisplay {
-      display: none;
   }
-  /*main form*/
-  .centerForm{
-    max-width: 80%;
+
+  /* hero */
+  .hero h1 {
+    font-size: 1rem;
+    margin-top: 5%;
   }
-  .formInput{
+
+  /* joinUs box */
+  .join-us {
+    height: auto;
+    box-shadow: none;
+    background-color: none;
+    transform: translateY(0);
+  }
+
+  /* porQue */
+  .porQueJumbotronP{
+    text-align: left;
+    padding-left: 2%;
+  }
+
+  /* solution */
+  .solution-text {
+    padding-left: 2%;
+  }
+
+  /* methodology */
+  .upSchema {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /*mainform*/
+  .centerForm {
+    max-width: 100%;
+  }
+
+  .formInput {
     width: 100%;
   }
+
+  /* footer */
+  .footerRow * {
+    margin-bottom: 5%;
+  }
+
+  .adressFooter {
+    text-align: center;
+  }
+
+  .upSchema article, .downSchema article {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  /* twoCards */
+  .eachcards {
+    width:80%;
+  }
+
+  .eachcards:first-of-type {
+    margin-bottom:10%;
+  }
 }
+
 @media screen and (min-width:768px){
   body{font-size:18px;}
   h1 { font-size: 2.6rem;}
@@ -101,9 +148,50 @@ font-size: 1em;
   h3 { font-size: 2rem; }
   h4 { font-size: 1rem; }
   h5 { font-size: 1rem; }
+
+  .porQueJumbotronP {
+    max-width: 70%;
+  }
+
+  .join-us {
+    background-color: none;
+    transform: translateY(-125%);
+  }
+}
+
+@media screen and (min-width:768) and (max-width: 1050px) {
+  .join-us {
+    width: 100%;
+    transform: translateY(-100%);
+  }
+} 
+
+@media screen and (max-width:768px){
+  .footerLogoDisplay {
+    display: none;
+  }
+
+  /*main form*/
+  .centerForm{
+    max-width: 80%;
+  }
+
+  .formInput{
+    width: 100%;
+  }
 }
 
 @media screen and (min-width:992px){
-  body{font-size:20px;}
-}
+  body{
+    font-size:20px;
+  }
+  
+  .sectionChartText {
+    max-width: 40%;
+    margin-right: 5%;
+  }
 
+  .join-us {
+    transform: translateY(-110%);
+  }
+}

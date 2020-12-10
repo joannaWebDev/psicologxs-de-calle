@@ -3,9 +3,3 @@
   color:var(--logo);
   font-size: 1.8rem;
 }
-@media (max-width: 576px) { 
-  .logo {
-    text-align: center;
-
-  } 
-}

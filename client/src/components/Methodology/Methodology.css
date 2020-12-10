@@ -1,47 +1,49 @@
-.methodology{
+.methodology {
     color: white;
     display: flex;
     flex-direction: column;
     font-size: small;
     margin: 7%;
 }
-.upSchema{
+
+.upSchema {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 3%;
 }
+
 .methodology article {
     background-color: var(--section-metodologia-bg-color);
 }
-.upSchema article{
+
+.upSchema article {
     width: 40%;
     padding: 3%;
     border-radius: 12px; 
 }
 
-.downSchema{
+.downSchema {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
-.downSchema article{
+.downSchema article {
     width: 40%;
     padding: 3%;
     border-radius: 12px;
 }
 
-
-.lineWithCircle{
+.lineWithCircle {
     width: 50%;
     color: black;
     display: flex;
     align-self: center;
     justify-content: space-between;
 }
-.line{
+
+.line {
     width: 50%;
     height: 20%;
     color:black;
@@ -54,15 +56,4 @@
     border: 2px solid black;
     border-radius: 50%;
     margin-bottom: 5%;
-}
-
-@media only screen and (max-width: 600px) {
-    .upSchema{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .upSchema article, .downSchema article{
-        width: 100%;
-        margin-bottom: 5%;
-    }
 }
