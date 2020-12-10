@@ -1,7 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 /* import LineTo from 'react-lineto'; */
-import './Methodology.css'
+import './Methodology.css';
+import homelessWomen from './../../assets/images/homeless-women.jpg';
 
 const Methodology = () => {
     return (
@@ -9,6 +10,11 @@ const Methodology = () => {
             <h3 className="methodHeader text-center">La metodología de Psicólogxs en la Calle</h3>
             
             <div className="methodology">
+                <section className="image">
+                    <div className="container-fluid">
+                        <img src={homelessWomen} className="img-fluid"/>
+                    </div>
+                </section>
                 <section className="upSchema">
                     <article>El asistente social vinculado al programa identifica a las personas sin hogar y les ofrece participar en las sesiones de acompañamiento emocional. Al aceptar, Psicologxs de Calle los  incluye en su base de datos y crea su expediente.</article>
                     <article>El psicólogx en especialización y el mentor llevan a cabo las sesiones en el lugar de permanencia de la persona sin hogar. Una vez adquiera experiencia, el piscólogx las realizará sin supervisión por parte del mentor.</article>
