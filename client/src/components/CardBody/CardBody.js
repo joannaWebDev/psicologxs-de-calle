@@ -8,8 +8,8 @@ const CardBody = () => {
     
     return(
         <div className="clippath">
-        <div className="cards-body text-center">
-            <h3 className="mb-5 mt-2">¿Que Hacemos?</h3>
+        <div className="cards-body">
+            <h3 className="mb-5 mt-2 text-center">¿Que Hacemos?</h3>
             <TwoCards/>
         </div>
         </div>
