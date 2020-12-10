@@ -1,26 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.6849377b.chunk.css",
-    "main.js": "/static/js/main.4a8f1a83.chunk.js",
-    "main.js.map": "/static/js/main.4a8f1a83.chunk.js.map",
+    "main.css": "/static/css/main.2073e3d3.chunk.css",
+    "main.js": "/static/js/main.f1f15b53.chunk.js",
+    "main.js.map": "/static/js/main.f1f15b53.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.745ce23d.js",
     "runtime-main.js.map": "/static/js/runtime-main.745ce23d.js.map",
     "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.0fcdbbf9.chunk.js": "/static/js/2.0fcdbbf9.chunk.js",
-    "static/js/2.0fcdbbf9.chunk.js.map": "/static/js/2.0fcdbbf9.chunk.js.map",
+    "static/js/2.b12299c3.chunk.js": "/static/js/2.b12299c3.chunk.js",
+    "static/js/2.b12299c3.chunk.js.map": "/static/js/2.b12299c3.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.6849377b.chunk.css.map": "/static/css/main.6849377b.chunk.css.map",
-    "static/js/2.0fcdbbf9.chunk.js.LICENSE.txt": "/static/js/2.0fcdbbf9.chunk.js.LICENSE.txt",
+    "static/css/main.2073e3d3.chunk.css.map": "/static/css/main.2073e3d3.chunk.css.map",
+    "static/js/2.b12299c3.chunk.js.LICENSE.txt": "/static/js/2.b12299c3.chunk.js.LICENSE.txt",
+    "static/media/boyimageedited.1fc8af08.png": "/static/media/boyimageedited.1fc8af08.png",
+    "static/media/CardBody.css": "/static/media/cards-background.890dc012.png",
     "static/media/chart.66f80e44.png": "/static/media/chart.66f80e44.png",
+    "static/media/girl-volunteer.6f2c8e9a.jpg": "/static/media/girl-volunteer.6f2c8e9a.jpg",
     "static/media/Home.css": "/static/media/hero.04f26296.jpeg",
+    "static/media/homeless-women.ed7a1fca.jpg": "/static/media/homeless-women.ed7a1fca.jpg",
+    "static/media/team-1.c62ba38e.png": "/static/media/team-1.c62ba38e.png",
+    "static/media/team-2.ae2ac9a6.png": "/static/media/team-2.ae2ac9a6.png",
+    "static/media/team-3.214aaac7.png": "/static/media/team-3.214aaac7.png",
     "static/media/volunteer-backpack.134ded3b.png": "/static/media/volunteer-backpack.134ded3b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.745ce23d.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.0fcdbbf9.chunk.js",
-    "static/css/main.6849377b.chunk.css",
-    "static/js/main.4a8f1a83.chunk.js"
+    "static/js/2.b12299c3.chunk.js",
+    "static/css/main.2073e3d3.chunk.css",
+    "static/js/main.f1f15b53.chunk.js"
   ]
 }
