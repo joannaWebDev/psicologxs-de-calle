@@ -17,8 +17,8 @@ const TwoCards = () => {
                     <Card.Body>
                         
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Psicólogxs de Calle es un programa sin ánimo de lucro, que conecta a estudiantes de Psicología en especialización y búsqueda 
+                        de prácticas con personas sin hogar que requieren acompañamiento emocional.
                         </Card.Text>
                        
                     </Card.Body>
@@ -29,8 +29,7 @@ const TwoCards = () => {
                     <Card.Body >
                         
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Nuestra visión: Tratar el bienestar emocional de, al menos, el 30% de las personas sin hogar en Barcelona en un plazo de 5 años. Siendo el primer programa que llega a las personas sin hogar, y no al revés.
                         </Card.Text>
                        
                     </Card.Body>
