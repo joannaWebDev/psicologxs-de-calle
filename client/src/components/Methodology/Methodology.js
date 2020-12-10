@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/esm/Container';
 /* import LineTo from 'react-lineto'; */
 import './Methodology.css'
 
-
 const Methodology = () => {
     return (
         <Container className="my-5">
@@ -20,7 +19,6 @@ const Methodology = () => {
                 </section>
             </div>
         </Container>
-
     )
 }
 export default Methodology;

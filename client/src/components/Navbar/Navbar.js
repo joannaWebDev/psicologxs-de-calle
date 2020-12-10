@@ -3,8 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 
 import './Navbar.css'
 
-
 const Navbar = () => {
+  
     return(
       <Nav className="justify-content-end navBar" activeKey="/home">
         <Nav.Item>

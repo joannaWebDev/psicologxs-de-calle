@@ -5,6 +5,7 @@ import TwoCards from '../TwoCards/TwoCards';
 import './CardBody.css'
 
 const CardBody = () => {
+    
     return(
         <div className="clippath">
         <div className="cards-body text-center">

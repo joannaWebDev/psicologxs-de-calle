@@ -6,13 +6,16 @@
     margin-top: 10%;
     text-align: center;
 }
+
 .adressFooter {
     text-align: left;
 }
+
 .footerImg{
     display: flex;
     justify-content: space-around;
 }
+
 .footerImg img {
     width: 40px;
 }

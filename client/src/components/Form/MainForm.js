@@ -7,6 +7,7 @@ import './MainForm.css';
 
 
 const MainForm = () => {
+    
     return (
         <Form className = "container centerForm">
             <div className ="formHeader">

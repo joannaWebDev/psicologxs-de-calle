@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button'
 import './Header.css'
 
 const Header = () => {
+  
   return (
     <div className="container-fluid my-4">
       <div className="row justify-content-center">
@@ -21,5 +22,3 @@ const Header = () => {
 }
 
 export default Header;
-
-/**the button is just for testing. it will have to be changed */
